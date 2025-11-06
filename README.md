@@ -4,7 +4,7 @@
 
 1. [Overview](#overview)
 2. [Features](#features)
-3. [🚀 Quick Run](#-quick-run)
+3. [🚀 Quick Run](#quick-run)
 4. [Results Achieved](#results-achieved)
 5. [Student Implementation](#student-implementation)
 6. [Project Structure](#project-structure)
@@ -17,13 +17,13 @@
 
 ---
 
-## 1. Overview
+## Overview
 
 A simulation of a real-time stock monitoring system that aggregates price data from multiple sources (HOSE, HNX), updates a central feeder, and notifies views via the Observer pattern. Demonstrates design patterns (Observer, Adapter) and scheduled task execution in Java. This implementation got Perfect Score.
 
 ---
 
-## 2. Features
+## Features
 
 - **Multi-source Data Aggregation:** Fetches stock prices from HOSE and HNX exchanges via adapter pattern.
 - **Real-time Price Updates:** Continuously monitors and updates stock prices at configurable intervals (1 minute per assignment).
@@ -36,7 +36,7 @@ A simulation of a real-time stock monitoring system that aggregates price data f
 
 ---
 
-## 3. 🚀 Quick Run
+## Quick Run
 
 **Requirements:** Java 8+ and Maven 3+
 
@@ -49,7 +49,7 @@ mvn exec:java -Dexec.mainClass=com.myproject.Main
 
 ---
 
-## 4. Results Achieved
+## Results Achieved
 
 **Evaluation:** Perfect Score (Full Score)
 
@@ -61,7 +61,7 @@ mvn exec:java -Dexec.mainClass=com.myproject.Main
 
 ---
 
-## 5. Student Implementation
+## Student Implementation
 
 Four core files implemented under `src/main/java/com/myproject/`:
 
@@ -72,7 +72,7 @@ Four core files implemented under `src/main/java/com/myproject/`:
 
 ---
 
-## 6. Project Structure
+## Project Structure
 
 ```
 real-time-stock-monitor/
@@ -104,7 +104,7 @@ real-time-stock-monitor/
 
 ---
 
-## 7. Design Patterns
+## Design Patterns
 
 - **Observer:** `StockFeeder` (Subject) notifies registered viewers on price updates.
 - **Adapter:** `PriceFetcher` interface adapts external price libraries to a common API.
@@ -112,7 +112,7 @@ real-time-stock-monitor/
 
 ---
 
-## 8. License
+## License
 
 This project is released under the MIT License. See the included `LICENSE` file in the repository root for the full text.
 
