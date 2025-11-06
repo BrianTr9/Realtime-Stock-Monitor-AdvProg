@@ -1,0 +1,50 @@
+# Compiled class files
+*.class
+
+# Log files
+*.log
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Maven
+/target/
+dependency-reduced-pom.xml
+release.properties
+buildNumber.properties
+.mvn/
+
+# Eclipse
+.project
+.classpath
+/.settings/
+
+# IntelliJ
+.idea/
+*.iml
+out/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# OS generated files
+Thumbs.db
+
+# IDE/editor specific
+*.log
+logs/
+
+# Environment
+.env
+
+# Temporary
+tmp/
+temp/
+
+# Ignore target artifacts and generated files
+/target/
